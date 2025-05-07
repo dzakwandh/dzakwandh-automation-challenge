@@ -22,5 +22,8 @@ jobs:
       - name: Install dependencies
         run: npm install --unsafe-perm
 
+      - name: Give Cypress executable permission
+        run: chmod +x ./node_modules/.bin/cypress
+
       - name: Run Cypress tests
         run: npx cypress run

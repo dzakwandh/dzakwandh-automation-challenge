@@ -14,27 +14,21 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
+      - name: Clear Cypress cache
+        run: rm -rf ~/.cache/Cypress
+
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
           node-version: '18'
 
-      - name: Cache Cypress binary
-        uses: actions/cache@v3
-        with:
-          path: ~/.cache/Cypress
-          key: ${{ runner.os }}-cypress-${{ hashFiles('**/package-lock.json') }}
-          restore-keys: |
-            ${{ runner.os }}-cypress-
-
       - name: Install dependencies
-        run: npm install --unsafe-perm
+        run: npm ci --unsafe-perm
 
       - name: Install Cypress binary
-        run: npx cypress install
+        run: sudo npx cypress install
 
-      - name: Give Cypress executable permission
-        run: chmod +x ~/.cache/Cypress/14.3.3/Cypress/Cypress
-
-      - name: Run Cypress tests
-        run: npx cypress run
+      - name: Run Cypress tests using GitHub Action
+        uses: cypress-io/github-action@v2
+        with:
+          start: npm start

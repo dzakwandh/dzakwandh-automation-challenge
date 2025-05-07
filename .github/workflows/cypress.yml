@@ -19,8 +19,10 @@ jobs:
         with:
           node-version: '18'
 
-      - name: Install dependencies
-        run: npm install
+      - name: Install dependencies and Cypress
+        run: |
+          npm install
+          npx cypress install
 
       - name: Run Cypress tests
-        run: npm test
+        run: npx cypress run

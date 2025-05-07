@@ -22,7 +22,8 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Run Cypress tests using Cypress GitHub Action
-        uses: cypress-io/github-action@v2
-        with:
-          install: false
+      - name: Install Cypress binary
+        run: npx cypress install
+
+      - name: Run Cypress tests
+        run: npx cypress run

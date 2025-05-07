@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "This is dealls case study for my QA sapplication"
+    "test": "cypress run
   },
   "keywords": [],
   "author": "",

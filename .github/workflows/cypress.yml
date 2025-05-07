@@ -20,10 +20,7 @@ jobs:
           node-version: '18'
 
       - name: Install dependencies
-        run: npm install
-
-      - name: Install Cypress binary
-        run: npx --no-install cypress install
+        run: npm install --unsafe-perm
 
       - name: Run Cypress tests
-        run: ./node_modules/.bin/cypress run
+        run: npx cypress run

@@ -1,5 +1,5 @@
 # Challenge 1 (Task 1)
-The answer to task number 1 of Challenge 1 is available in the PDF file [TEST STRATEGY-Dzakwan DH](https://github.com/dzakwandh/dealls-automation-challenge/blob/main/TEST%20STRATEGY-Dzakwan%20DH.pdf).
+The answer to task number 1 of Challenge 1 is available in the PDF file [TEST STRATEGY-Dzakwan DH](https://github.com/dzakwandh/dzakwandh-automation-challenge/blob/main/TEST%20STRATEGY-Dzakwan%20DH.pdf).
 
 # Challenge 1 (Task 2)
 ### 1. Register:
@@ -20,24 +20,24 @@ The answer to task number 1 of Challenge 1 is available in the PDF file [TEST ST
 * cenario to check if the user can log out successfully after a session.
 
 # Challenge 3 Exploration & Bug
-The answer for this challenge is available in the PDF file [Challenge 3-DzakwanDH.pdf](https://github.com/dzakwandh/dealls-automation-challenge/blob/main/Challenge%203-DzakwanDH.pdf). 
+The answer for this challenge is available in the PDF file [Challenge 3-DzakwanDH.pdf](https://github.com/dzakwandh/dzakwandh-automation-challenge/blob/main/Challenge%203-DzakwanDH.pdf). 
 
-# Challenge 2 Cypress UI Automation - Dealls Mentoring Web
+# Challenge 2 Cypress UI Automation - Mentoring Web
 
-Automation Challenge for QA application at Dealls (Dzakwan Daffa Hidayatullah)
+Automation Challenge for QA application (Dzakwan Daffa Hidayatullah)
 ## About This Project
-This project is a technical case study submission for the Automation Software Quality Assurance Analyst position at Dealls (YC W22).
+This project is a technical case study submission for the Automation Software Quality Assurance Analyst position.
 The assessment was provided as part of the recruitment process to evaluate skills in testing strategy, test automation, and identifying/reporting bugs. It includes:
 * Writing automated test cases using Cypress
 * Creating a test strategy document
-* Reporting real bugs found in the Dealls mentoring platform
+* Reporting real bugs found in the main web and mentoring platform
 All deliverables were completed based on the provided instructions and tested on the specified test environment.
 
 ## Built With
-This project contains automated end-to-end test cases written using [Cypress](https://www.cypress.io/) for the Dealls Mentoring web platform.
+This project contains automated end-to-end test cases written using [Cypress](https://www.cypress.io/) for Mentoring web platform.
 ## 📁 Project Structure
 ```
-cypress-dealls-dzakwandh
+dzakwandh-automation-challenge
 ├── cypress/
 │ ├── e2e/
 │ │ ├── booking-mentor.cy.js # Test case for proposing a schedule to mentor (not logged in)
@@ -55,8 +55,7 @@ cypress-dealls-dzakwandh
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/dzakwandh/dealls-automation-challenge.git
-cd cypress-dealls-dzakwandh
+git clone https://github.com/dzakwandh/dzakwandh-automation-challenge.git
 ```
 
 ### 2. Install Dependencies

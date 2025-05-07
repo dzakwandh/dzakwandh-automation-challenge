@@ -1,0 +1,16 @@
+{
+  "name": "cypress-dealls-dzakwandh",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "This is dealls case study for my QA sapplication"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "cypress": "^14.3.3"
+  }
+}

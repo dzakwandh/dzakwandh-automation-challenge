@@ -1,11 +1,40 @@
-# Cypress UI Automation - Dealls Mentoring Web
-Automation Challenge for QA application at Dealls (Dzakwan Daffa Hidayatullah)
-
-This project contains automated end-to-end test cases written using [Cypress](https://www.cypress.io/) for the Dealls Mentoring web platform.
-
 # Challenge 1 (Task 1)
 The answer to task number 1 of Challenge 1 is available in the PDF file [TEST STRATEGY-Dzakwan DH](https://github.com/dzakwandh/dealls-automation-challenge/blob/main/TEST%20STRATEGY-Dzakwan%20DH.pdf).
 
+# Challenge 1 (Task 2)
+### 1. Register:
+* Scenario to check if a new user (mentor/mentee) can register successfully with valid details.
+### 2. Login:
+* Scenario for logging in as a valid mentor or mentee with correct credentials.
+* Scenario for handling invalid credentials (incorrect email or password).
+### 3. Search for a Mentor:
+* Scenario to verify that the user can search for a mentor using valid keywords.
+* Scenario to ensure the correct mentor list is displayed after applying filters (e.g., experience level).
+### 4. Make a Schedule:
+* Scenario to verify that a user (mentee) can propose a schedule to a mentor.
+* Scenario to verify the system properly handles selecting date and time slots.
+### 5. Mentor Availability:
+* Scenario to verify the system displays mentors who are available based on the search criteria (e.g., experience level, location).
+* Scenario to handle when no mentors match the filter criteria (e.g., no available mentors for a specific level).
+### 6. Logout:
+* cenario to check if the user can log out successfully after a session.
+
+# Challenge 3 Exploration & Bug
+The answer for this challenge is available in the PDF file [Challenge 3-DzakwanDH.pdf](https://github.com/dzakwandh/dealls-automation-challenge/blob/main/Challenge%203-DzakwanDH.pdf). 
+
+# Challenge 2 Cypress UI Automation - Dealls Mentoring Web
+
+Automation Challenge for QA application at Dealls (Dzakwan Daffa Hidayatullah)
+## About This Project
+This project is a technical case study submission for the Automation Software Quality Assurance Analyst position at Dealls (YC W22).
+The assessment was provided as part of the recruitment process to evaluate skills in testing strategy, test automation, and identifying/reporting bugs. It includes:
+* Writing automated test cases using Cypress
+* Creating a test strategy document
+* Reporting real bugs found in the Dealls mentoring platform
+All deliverables were completed based on the provided instructions and tested on the specified test environment.
+
+## Built With
+This project contains automated end-to-end test cases written using [Cypress](https://www.cypress.io/) for the Dealls Mentoring web platform.
 ## 📁 Project Structure
 ```
 cypress-dealls-dzakwandh

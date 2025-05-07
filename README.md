@@ -3,6 +3,9 @@ Automation Challenge for QA application at Dealls (Dzakwan Daffa Hidayatullah)
 
 This project contains automated end-to-end test cases written using [Cypress](https://www.cypress.io/) for the Dealls Mentoring web platform.
 
+# Challenge 1 (Task 1)
+The answer to task number 1 of Challenge 1 is available in the PDF file [TEST STRATEGY-Dzakwan DH](https://github.com/dzakwandh/dealls-automation-challenge/blob/main/TEST%20STRATEGY-Dzakwan%20DH.pdf).
+
 ## 📁 Project Structure
 ```
 cypress-dealls-dzakwandh

@@ -22,8 +22,7 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Ensure Cypress has execution permissions
-        run: chmod +x ./node_modules/.bin/cypress
-
-      - name: Run Cypress tests
-        run: npx cypress run
+      - name: Run Cypress tests using Cypress GitHub Action
+        uses: cypress-io/github-action@v2
+        with:
+          start: npm start

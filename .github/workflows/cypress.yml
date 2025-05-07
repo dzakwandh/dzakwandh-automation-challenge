@@ -25,4 +25,4 @@ jobs:
       - name: Run Cypress tests using Cypress GitHub Action
         uses: cypress-io/github-action@v2
         with:
-          start: npm start
+          install: false

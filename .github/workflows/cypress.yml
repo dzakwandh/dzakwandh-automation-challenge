@@ -23,7 +23,7 @@ jobs:
         run: npm install
 
       - name: Install Cypress binary
-        run: npx cypress install
+        run: npx --no-install cypress install
 
       - name: Run Cypress tests
-        run: npx cypress run
+        run: ./node_modules/.bin/cypress run

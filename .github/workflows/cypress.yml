@@ -24,5 +24,6 @@ jobs:
           npm install
           npx cypress install
 
-      - name: Run Cypress tests
-        run: npx cypress run
+      - run: |
+          chmod +x ./node_modules/.bin/cypress
+          npx cypress run
